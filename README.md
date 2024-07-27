@@ -3,7 +3,7 @@
 Request a **Jupyter Server on `savio3_gpu` A40 GPU node** using [Open OnDemand at https://ood.brc.berkeley.edu/](https://ood.brc.berkeley.edu/).
 
 ## Create the Conda Environment
-- Make sure the conda envs directories are on the $SCRATCH space
+- Please make sure the conda envs directories are on the `$SCRATCH` space, as it needs the scratch space to download Llama 3.1 models 8B (15GiB), 8B-Instruct (15GiB), and 70B (132GiB).
 ```bash
 # Create the conda environment with Python 3.11
 conda create --name llama-py311 python=3.11
