@@ -29,8 +29,8 @@ python -m ipykernel install --user --name llama-py311 --display-name "llama-py31
 
 To access the LLAMA 3.1 models, you need to accept the **LLAMA 3.1 COMMUNITY LICENSE AGREEMENT** at [Hugging Face](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B):
 
-1. Click on "Login or Sign Up" to review the conditions and access this model content.
-2. Approval of models access requests usually takes about 2 hours.
+1. Click on "Login or Sign Up" to review the conditions.
+2. Approval of models access requests usually takes about **2 hours**.
 
 ## Set Up Hugging Face on the Cluster
 
