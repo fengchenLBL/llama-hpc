@@ -1,7 +1,4 @@
-# llama-hpc
-
-Sure! Here's the Markdown formatted instructions for your GitHub README.md file:
-
+# llama-hpc on [Lawrencium] and [Savio]
 ## Run Llama 3.1 models on Savio
 Request a **Jupyter Server on `savio3_gpu` A40 GPU node** using [Open OnDemand at https://ood.brc.berkeley.edu/](https://ood.brc.berkeley.edu/).
 
