@@ -3,6 +3,7 @@
 Sure! Here's the Markdown formatted instructions for your GitHub README.md file:
 
 ## Run Llama 3.1 models on Savio
+Request a **Jupyter Server on `savio3_gpu` A40 GPU node** using [Open OnDemand at https://ood.brc.berkeley.edu/](https://ood.brc.berkeley.edu/).
 
 ## Create the Conda Environment
 
@@ -45,8 +46,12 @@ huggingface-cli login
 Follow the instructions to create an access token at [Hugging Face Tokens](https://huggingface.co/settings/tokens) and paste it into the terminal.
 
 ## Test the Models
-
-Now you can run the provided Jupyter notebook ([`llama3_1_tests.ipynb`](llama3_1_tests.ipynb)) to test the following models:
+Once you have access to the GPU, you can run the provided Jupyter notebook ([`llama3_1_tests.ipynb`](llama3_1_tests.ipynb)) to test the following models:
 - **Llama 3.1 8B** (tested on NVIDIA A40)
 - **Llama 3.1 8B-Instruct** (tested on NVIDIA A40)
 - **Llama 3.1 70B** (CUDA **out of memory** on NVIDIA A40)
+
+Alternatively, you can test the models by running the following scripts:
+- `python single_gpu_inference-llm3_1_8B.py`
+- `python single_gpu_inference-llm3_1_8B_Instruct.py`
+- `python single_gpu_inference-llm3_1_70B.py`
