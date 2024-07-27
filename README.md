@@ -1,6 +1,6 @@
 # Llama on [Lawrencium](https://github.com/fengchenLBL/llama-hpc/blob/lawrencium/README.md) and [Savio](https://github.com/fengchenLBL/llama-hpc/blob/savio/README.md)
 ## Run Llama 3.1 models on Lawrencium
-Request a **Jupyter Server on `ES1` A40 GPU node** using [Open OnDemand at https://lrc-ondemand.lbl.gov/](https://lrc-ondemand.lbl.gov/).
+Request a **Jupyter Server on `ES1` A40 GPU node** using [**Open OnDemand** at https://lrc-ondemand.lbl.gov/](https://lrc-ondemand.lbl.gov/).
 
 ## Create the Conda Environment
 - Please make sure the conda envs directories are on the `$SCRATCH` space, as it needs the scratch space to download Llama 3.1 models 8B (15GiB), 8B-Instruct (15GiB), and 70B (132GiB).
