@@ -3,7 +3,7 @@
 Request a **Jupyter Server on `savio3_gpu` A40 GPU node** using [Open OnDemand at https://ood.brc.berkeley.edu/](https://ood.brc.berkeley.edu/).
 
 ## Create the Conda Environment
-
+- Make sure the conda envs directories are on the $SCRATCH space
 ```bash
 # Create the conda environment with Python 3.11
 conda create --name llama-py311 python=3.11
