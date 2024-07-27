@@ -43,7 +43,7 @@ huggingface-cli login
 Follow the instructions to create an access token at [Hugging Face Tokens](https://huggingface.co/settings/tokens) and paste it into the terminal.
 
 ## Test the Models
-Once you have access to the GPU, you can run the provided Jupyter notebook ([`llama3_1_tests.ipynb`](llama3_1_tests.ipynb)) to test the following models:
+Once you have access to Hugging Face on the GPU node, you can run the provided Jupyter notebook ([`llama3_1_tests.ipynb`](llama3_1_tests.ipynb)) to test the following models:
 - **Llama 3.1 8B** (tested on NVIDIA A40)
 - **Llama 3.1 8B-Instruct** (tested on NVIDIA A40)
 - **Llama 3.1 70B** (CUDA **out of memory** on NVIDIA A40)
